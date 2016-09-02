@@ -1,4 +1,4 @@
-<?php
+<?php 
 set_time_limit(0);
 require_once("libraries/TeamSpeak3/TeamSpeak3.php");
 $ts3_VirtualServer = TeamSpeak3::factory("serverquery://username:password@IPADDRESS:10011/?server_port=9987");
